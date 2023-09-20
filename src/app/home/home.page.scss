@@ -1,0 +1,95 @@
+$size1: 10em;
+$size2: 3.5em;
+$size3: 3em;
+$size4: 2em;
+$size5: 1.5em;
+
+ion-content {
+  --ion-font-family: 'Roboto', sans-serif;
+  --background: linear-gradient( #159895, #1A5F7A, #002B5B) !important;
+  --ion-text-color: #222; 
+  position: fixed;
+  background-size: cover;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+}
+
+ion-header {
+  --ion-text-color: white;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+ion-card-title {
+  font-size:$size3 ;
+  --ion-text-color: white;
+  --color: white;
+}
+
+ion-card-subtitle {
+  --ion-text-color: white;
+}
+
+ion-card {
+  --background: #061623ba;
+  --color: #e5ecf699;
+  padding: 1em;
+  border-radius: 8%;
+}
+
+ion-grid {
+  align-items: center;
+}
+
+.main {
+  text-align: center;
+}
+
+.city {
+  font-size: $size5;
+  font-weight: bold;
+  padding-top: 0.2em;
+}
+
+.date {
+  display: block;
+  font-size: $size5;
+  font-weight: bold;
+}
+
+.desc {
+  display: block;
+  font-size: $size4;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+}
+
+.temp {
+  display: block;
+  font-weight: bold;
+  font-size: $size1;
+  padding: 0px;
+  margin: 0px;
+}
+
+.icon {
+  display: block;
+  padding-top: 0px;
+}
+
+.day {
+  display: block;
+  font-weight: bold;
+}
+
+.foot {
+  display: block;
+  color:white;
+  padding-top: 20px;
+  padding: 2px;
+}
